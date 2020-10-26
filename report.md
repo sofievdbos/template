@@ -80,11 +80,13 @@ Subsection content goes here. You can create numerated lists:
   \item The numbers starts at 1 with every call to the enumerate environment.
 \end{enumerate}
 
+\begin{center}
 \begin{tabular}{ c c c }
  cell1 & cell2 & cell3 \\ 
  cell4 & cell5 & cell6 \\  
  cell7 & cell8 & cell9    
 \end{tabular}
+\end{center}
 
 ### SubSubsection
 You can add mathematical formulas. Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$.
@@ -103,17 +105,8 @@ Figure files must be placed at the \code{figures} folder. You can include figure
 
 \begin{figure}[h!]
 
-  \includegraphics[width=.47\textwidth]{brainhack.png}
-  \caption{\label{fig1} Your caption goes here.}
-
-\end{figure}
-
-To refer a figure in the text, you need to use the respective label defined in its caption: Fig. \ref{fig1}
-
-\begin{figure}[h!]
-
   \centering
-  \includegraphics[width=.47\textwidth]{neuro_baby_gift.jpg}
+  \includegraphics[width=.2\textwidth]{neuro_baby_gift.jpg}
   \caption{\label{fig1} Your caption goes here.}
 
 \end{figure}
