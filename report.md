@@ -80,6 +80,14 @@ Subsection content goes here. You can create numerated lists:
   \item The numbers starts at 1 with every call to the enumerate environment.
 \end{enumerate}
 
+\begin{center}
+\begin{tabular}{ c c c }
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9    
+\end{tabular}
+\end{center}
+
 ### SubSubsection
 You can add mathematical formulas. Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$.
 \smallskip
