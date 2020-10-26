@@ -106,17 +106,8 @@ To refer a figure in the text, you need to use the respective label defined in i
 
 \begin{figure}[h!]
 
+  \centering
   \includegraphics[width=.47\textwidth]{neuro_baby_gift.jpg}
   \caption{\label{fig1} Your caption goes here.}
 
 \end{figure}
-
-\usepackage{tikz}
-\newcommand{\roundpic}[4][]{
-  \tikz\node [circle, minimum width = #2,
-    path picture = {
-      \node [#1] at (path picture bounding box.center) {
-        \includegraphics[width=#3]{#4}};
-    }] {};}
-
-\roundpic[xshift=-1cm,yshift=-2.6cm]{5.8cm}{9cm}{neuro_baby_gift.jpg}
