@@ -106,7 +106,7 @@ To refer a figure in the text, you need to use the respective label defined in i
 
 \begin{figure}[h!]
 
-  \includegraphics[width=.47\textwidth]{neuro_baby_gift.png}
+  \includegraphics[width=.47\textwidth]{neuro_baby_gift.jpg}
   \caption{\label{fig1} Your caption goes here.}
 
 \end{figure}
