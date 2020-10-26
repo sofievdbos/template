@@ -119,9 +119,4 @@ To refer a figure in the text, you need to use the respective label defined in i
         \includegraphics[width=#3]{#4}};
     }] {};}
 
-\begin{figure}[h!]
-
-  \roundpic[xshift=-1cm,yshift=-2.6cm]{5.8cm}{9cm}{neuro_baby_gift.jpg}
-  \caption{\label{fig1} Your caption goes here.}
-
-\end{figure}
+\roundpic[xshift=-1cm,yshift=-2.6cm]{5.8cm}{9cm}{neuro_baby_gift.jpg}
